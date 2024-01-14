@@ -1,0 +1,3 @@
+Interface Carnivorous{
+    void eat();
+}

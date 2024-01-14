@@ -1,4 +1,4 @@
 interface ZooFactory{
     Carnivorous createCarnivorous();
-    Herbivorous createHarbivorous();
+    Herbivorous createHerbivorous();
 }
