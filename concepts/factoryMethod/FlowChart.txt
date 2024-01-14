@@ -1,0 +1,7 @@
+-In this example, i am firstly creating an interface Vehicle. 
+-Two class Car and Bicycle are created that implemented Vehicle
+
+- Then again creating an interface VehicleFactory.
+- two class CarFactory and BicycleFactory that implements VehicleFactory.
+
+- finally created a class VehicleFactoryExample, that implements these class and methods.
