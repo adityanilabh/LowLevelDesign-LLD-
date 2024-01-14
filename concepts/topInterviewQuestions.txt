@@ -1,0 +1,74 @@
+Explain some object-oriented principles?
+Some well-known principles are
+
+DRY
+It means don’t repeat yourself. It suggests that a code should not be repeated again and again. If needed, that change has to be done in all other places as well.
+
+YAGNI
+It means you ain’t gonna need it. It suggests that features should be added only when required to reduce inefficiency.
+
+SOLID
+It includes single responsibility, open-closed, Liskov substitution, interface segregation, and dependency inversion.
+------------------------------------------------------------------------------------------
+
+
+What is UML?
+UML Stands for unified modeling language. It is not a programming language but a tool used for modeling, visualizing, and creating the software system.( like making flowchart for software development)
+-------------------------------------------------------------------------------------------
+
+Explain the classification of UML diagrams.
+There are 14 types of UML diagrams. These are classified into 2 groups:-
+
+1.Structural Diagrams:These include the static view of the system
+2.Behavioral Diagrams:These include the dynamic view of the system
+
+------------------------------------------------------------------------------------------
+
+What are design patterns?
+Design patterns are the solutions to some problems that occur during the software designing process. These are tried and tested, hence smoothening the designing process.
+------------------------------------------------------------------------------------------
+
+Three Types of Design pattern:
+1. Creational Design pattern: hese design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
+
+2.Structural design patterns:
+These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
+
+3.Behavioral design patterns:
+These design patterns are all about Class's objects communication. Behavioral patterns are those patterns that are most specifically concerned with communication between objects.
+
+--------------------------------------------------------------------------------------
+
+What is the single responsibility principle?
+
+the concept that any single object in object-oriented programing (OOP) should be made for one specific function.
+-----------------------------------------------------------------------------------------
+
+What are the advantages of a low-level design?
+LLD has various advantages
+
+It gives a logical design to a program code
+It is based on high-level design
+It forms class diagrams that include
+Relations between classes and program specifications.
+It describes the modules for easy coding
+It develops the software with minimal debugging and testing
+It includes low-cost and maintenance
+
+----------------------------------------------------------------------------------------
+What is the difference between a sequence diagram and an activity diagram?
+A sequence diagram represents the objects to visualize the flow of the design, but an activity diagram represents all the cases and flows in a single diagram.
+A Sequence diagram gives the overview of the whole system, whereas an activity diagram Gives a holistic picture of the system.
+
+-In the case of a movie booking system, the sequence diagram includes a booking controller, a booking manager, and a payment processor. 
+But, an activity diagram includes the detailed process, from the display of a list of movies and theaters to the reservation of seats.
+
+-----------------------------------------------------------------------------------
+Which is the most popular design pattern used?
+The most frequently used design patterns are Singleton, Factory, and Strategy. They don’t require memorizing the code.
+------------------------------------------------------------------------------------
+What is multithreading?
+Multithreading is the process of breaking a code into independent tasks or threads to use resources efficiently. When the 2 tasks are independent of each other, they can be launched parallel to each other, thus achieving multi-threading.
+------------------------------------------------------------------------
+ What does the Singleton Design pattern mean?
+This creational pattern means that only one object of a particular class should be created and provides its global access.
