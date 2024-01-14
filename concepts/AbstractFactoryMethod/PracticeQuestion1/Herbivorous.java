@@ -1,0 +1,3 @@
+Interface Herbivorous{
+    void graze();
+}

@@ -1,0 +1,12 @@
+Imagine you are designing a system for an online zoo, 
+where different types of animals are housed in specific 
+enclosures based on their habitats. Each habitat has its 
+own set of animals, including carnivores and herbivores. 
+Implement the Abstract Factory pattern to create families of animals 
+for different habitats.
+-------------------------------------------------------------------------------
+1. first create zoofactory interface.- it is a default factory interface.
+2. create class of name savannahfactory and aquiriumFactory from zoofactory.
+3. create an interface name carnivores and herbivores and specify it's property method name
+4. now create land and ocean organism that implement these above two interface.
+5. create zoo application file and run the application.
