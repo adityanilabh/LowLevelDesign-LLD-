@@ -1,0 +1,7 @@
+Design an interface Character with methods attack() and defend().
+Create a concrete class Warrior that implements the Character interface. Warriors have a strong attack and moderate defense.
+Create a concrete class Mage that implements the Character interface. Mages have a magical attack and weak defense.
+Implement a CharacterFactory interface with a factory method createCharacter().
+Create a concrete factory class WarriorFactory that implements the CharacterFactory interface. It should return a Warrior instance.
+Create a concrete factory class MageFactory that implements the CharacterFactory interface. It should return a Mage instance.
+In the main game code, use the factory methods to create instances of Warrior and Mage. Test their abilities by calling attack() and defend().

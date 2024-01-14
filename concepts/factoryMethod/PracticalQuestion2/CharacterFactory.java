@@ -1,0 +1,4 @@
+Interface CharacterFactory {
+
+    Character createFactory();
+}
