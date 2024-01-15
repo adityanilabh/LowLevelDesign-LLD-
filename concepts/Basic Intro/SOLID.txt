@@ -1,0 +1,18 @@
+SOLID : 
+1. Single responsibility principal
+2. Open-End
+3. Liskov substitution
+4. Interface Segmented Principal.
+5. Dependency Inversion.
+-----------------------------------------------------------
+
+why Solid?
+- avoid duplicacy of code
+- reduce time complexity
+- tried and tested design pattern
+-easy to maintain.
+-------------------------------------------------------------
+What is Single responsibility principal?
+- a class should have single reason to change. or in other words, a class should be made for 
+one particular function.
+
