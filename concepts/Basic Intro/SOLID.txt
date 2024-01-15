@@ -1,0 +1,27 @@
+SOLID : 
+1. Single responsibility principal
+2. Open-End
+3. Liskov substitution
+4. Interface Segmented Principal.
+5. Dependency Inversion.
+-----------------------------------------------------------
+
+why Solid?
+- avoid duplicacy of code
+- reduce time complexity
+- tried and tested design pattern
+-easy to maintain.
+-------------------------------------------------------------
+What is Single responsibility principal?
+- a class should have single reason to change. or in other words, a class should be made for 
+one particular function. Refer SingleResonsiblity.txt for example.
+----------------------------------------------------------
+
+what is on and off principal? benefits?
+- this means open for extension but closed for modification.
+-- benefits:
+   1. reduce code bugs.
+   2.easy maintainance.
+  
+You can go to the onOffPrincipal.txt file to know code execution.
+-----------------------------------------------------------------------
