@@ -1,0 +1,67 @@
+let's have a code: 
+
+public class Student{
+    private String name;
+    private int Roll_No;
+
+    Student(String name,int Roll_No)
+    {
+        this.name=name;
+        this.Roll_No=Roll_No;
+    }
+
+    public String getStudent()
+    {
+        return name;
+    }
+
+    public int getRollNo()
+    {
+        return Roll_No;
+    }
+
+    public void ChangeRollNo(int Roll_no)
+    {
+        this.Roll_no=Roll_no;
+    }
+
+    public void printStudent()
+    {
+        System.out.println("Student Name is: "+ this.name);
+    }
+}
+
+-----------------------------------------
+
+so to rectify this code according to single responsibility principal: we make two classes ;
+the first class will be: 
+ 
+ public class Student {
+    private String name;
+    private int rollNo;
+
+    public Student(String name, int rollNo) {
+        this.name = name;
+        this.rollNo = rollNo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getRollNo() {
+        return rollNo;
+    }
+
+    public void changeRollNo(int rollNo) {
+        this.rollNo = rollNo;
+    }
+}
+
+and the second class will be : 
+public class StudentPrinter {
+    public void printStudent(Student student) {
+        System.out.println("Student Name: " + student.getName());
+        System.out.println("Roll Number: " + student.getRollNo());
+    }
+}

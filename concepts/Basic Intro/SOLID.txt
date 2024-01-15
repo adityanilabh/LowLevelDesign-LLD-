@@ -14,5 +14,14 @@ why Solid?
 -------------------------------------------------------------
 What is Single responsibility principal?
 - a class should have single reason to change. or in other words, a class should be made for 
-one particular function.
+one particular function. Refer SingleResonsiblity.txt for example.
+----------------------------------------------------------
 
+what is on and off principal? benefits?
+- this means open for extension but closed for modification.
+-- benefits:
+   1. reduce code bugs.
+   2.easy maintainance.
+  
+You can go to the onOffPrincipal.txt file to know code execution.
+-----------------------------------------------------------------------

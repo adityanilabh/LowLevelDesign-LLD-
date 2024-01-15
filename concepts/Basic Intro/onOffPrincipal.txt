@@ -1,0 +1,48 @@
+suppose we have a class name shape:
+we want to draw a circle from shape class:
+
+public class Shape{
+    public  void drawCircle(){
+        // logic to drawCircle.
+    }
+}
+
+now we want to add a function for drawing rectangle:
+
+public class Shape{
+    public void drawCircle(){
+        // logic for drawCircle
+    }
+
+    public void drawRectangle(){
+        // logic for drawRectangle
+    }
+}
+
+-----------------------------------------------
+so in enterprise level codebase, these change in existing code might create bugs. 
+to overcome it , always create interface, and then create different class to overcome this
+
+public interface Shape {
+    void draw();
+}
+
+public class Circle implements Shape {
+    @Override
+    public void draw() {
+        // Drawing logic for a circle
+    }
+}
+
+public class Rectangle implements Shape {
+    @Override
+    public void draw() {
+        // Drawing logic for a rectangle
+    }
+}
+
+public class DrawingSystem {
+    public void drawShape(Shape shape) {
+        shape.draw();
+    }
+}
