@@ -1,0 +1,15 @@
+How to Solve LLD?
+ANSWER: to solve lld, first learn about a programming language of any OOPS type. 
+        In my case i am learning JAVA. SO following topics should be covered: 
+        1. Java Basic: input/output, data types, array, String, cases, loops etc.
+        2. String manipulation: different way to initialise and work on String.
+        3. Class, object and interface: learn about class and interface in details.
+        4. Generics,Collection FrameWork & Wrapper Class: Learn about collection framework, it's 
+            diagram, relations between each collection, Wrapper class to wrap primitive
+            data types into data type objects.
+        5. Exception Handling in details: learn about exception handling in java.
+        6. MultiThreading and Syncronisation: learn how thread is created,lifecycle of thread
+           communication between threads and thread concepts.
+        7. lambda expression, stream API and JVM(optional)
+        8. Java Memory Management (optional)
+        9. JDBC

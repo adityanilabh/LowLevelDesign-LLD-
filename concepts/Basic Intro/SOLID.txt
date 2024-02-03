@@ -25,3 +25,6 @@ what is on and off principal? benefits?
   
 You can go to the onOffPrincipal.txt file to know code execution.
 -----------------------------------------------------------------------
+---Liskov Substitution Principal: 
+   it state that an object of a child class must be able to replace  an object of the
+   parent class without breaking the application.
