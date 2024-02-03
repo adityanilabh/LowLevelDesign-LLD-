@@ -65,3 +65,7 @@ public class StudentPrinter {
         System.out.println("Roll Number: " + student.getRollNo());
     }
 }
+
+Why do we do it?
+
+Cause we just give any class features only upto certiain level. we should create class  for different features.
